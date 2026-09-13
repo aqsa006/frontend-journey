@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>lesson 4</title>
+        <style>
+            .btn{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 8px;
+                padding-right: 8px;
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+            .stretch{
+                background-color: green;
+                border: none;
+                color: white;
+                padding-left:20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: medium;
+            }
+            .stretch:hover{
+                padding-left:40px;
+                padding-right: 40px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                transition: padding 1s;
+            }
+            .shadow{
+                background-color: green;
+                border: none;
+                color: white;
+                padding-left:20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: medium;
+                box-shadow: 3px 3px 1px rgba(0,0, 0,0.3);
+            }
+            .shadow:active{
+                margin-top: 3px;
+                margin-left: 3x;
+                box-shadow: none;
+            }
+            .div1{
+                background-color: green;
+                border: none;
+                color: white;
+                padding-left:13px;
+                padding-right: 13px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .div1:hover{
+                padding-left:20px;
+                padding-right: 20px;
+                margin-left: 3px;
+                margin-right: 3px;
+                transition: padding 0.15s,
+                margin 0.15s;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Pagination</h2>
+        <button class="btn">
+            Back
+        </button>
+        <a href="https://www.google.com/">1</a>
+        <a href="https://www.google.com/">2</a>
+        <a href="https://www.google.com/">3</a>
+        <a href="https://www.google.com/">4</a>
+        <a href="https://www.google.com/">5</a>
+        <button class="btn">Next</button>
+        <br>
+        <h2>Stretch</h2>
+        <button class="stretch">Stretch</button>
+        <br>
+        <h2>Shadow</h2>
+        <button class="shadow">Shadow</button>
+        <br>
+        <h2>one-two-three</h2>
+        <button class="div1" >One</button>
+        <button class="div1" >Two</button>
+        <button class="div1" >Three</button>
+        
+    </body>
+</html>
